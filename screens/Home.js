@@ -14,7 +14,7 @@ export default function Home({navigation}) {
 
   return (
     <SafeAreaView style={{ backgroundColor: "#eee", flex: 1}}>
-        <View style={{ backgroundColor: 'white', padding: 3}}>
+        <View style={{ backgroundColor: 'gray', padding: 3}}>
             <HeaderTaps/>
             <Search/>
         </View>
